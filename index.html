@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      
+      <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+      
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+      
+      <title>SARAN</title>
+      <!-- CSS -->
+      <style>
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+
+            :root {
+                  --font-family: 'Kanit', sans-serif;
+            }
+
+            body {
+                  height: 100vh;
+                  background-color: #000;
+                  font-family: var(--font-family);
+            }
+
+            header {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+            }
+
+            .container {
+                  width: 100%;
+                  height: 100%;
+                  position: relative;
+                  margin: 20px 0;
+            }
+
+            nav {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  max-width: 1300px;
+                  margin: 10px auto;
+
+            }
+
+            nav img {
+                  width: 140px;
+                  height: 100px;
+            }
+
+            .nav-link {
+                  display: flex;
+                  gap: 40px;
+            }
+
+            ul>li>a {
+                  font-family: var(--font-family);
+                  font-weight: 600px;
+                  color: #ffffff;
+                  text-decoration: none;
+                  margin: 0 15px;
+                  border-radius: 15px;
+                  padding: 10px;
+                  text-transform: uppercase;
+            }
+
+            a.active,a:hover {
+                  background: #FF3131;
+                  transition: .5s;           
+            }
+
+            .icon-shop i {
+                  color: #ffd600;
+                  font-size: 1.8rem;
+                  width: 14px;
+                  height: 50%;
+            }
+
+            .icon-shop i:hover {
+                  color: #eb6601;
+            }
+
+            .section-content {
+                  padding-top: 12rem;
+                  margin-left: 150px;
+                  display: flex;
+                  align-items: center;
+            }
+
+            span {
+                  font-size: 40px;
+            }
+
+            /* สัญลักษณ์ จุด */
+            .content-one {
+                  font-size: 70px;
+                  color: #ffffff;
+                  padding-top: 20px;
+            }
+
+            .content-two {
+                  color: #ff0000;
+                  padding-top: 20px;
+            }
+
+            .content-three {
+                  font-size: 70px;
+                  color: #ffffff;
+            }
+
+            .content-four {
+                  font-size: 18px;
+                  color: #307CA6;
+            }
+            .img-photo{
+                  width: 700px;
+                  padding-left: 40px;
+            }
+
+
+            button {
+                  background-color: #FF3131;
+                  color: #ffffff;
+                  font-weight: bold;
+                  padding: 1rem 3rem;
+                  border-radius: 2rem;
+                  font-size: .9rem;
+                  margin-left: 20px;
+                  margin-top: 38px;
+                  cursor: pointer;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="header-home">
+            <!-- header -->
+            <header>
+                  <div class="container">
+                        <nav>
+                              <img src="img/ima-logo.png" alt="logo">
+
+                              <ul class="nav-link">
+                                    <li><a href="#Home" class="active">HOME</a></li>
+                                    <li><a href="#Product">Products</a></li>
+                                    <li><a href="#Contect">Contact</a></li>
+                                    <li><a href="#FQA">FQA</a></li>
+                                    <li><a href="#Login">Login</a></li>
+                                    <div class="icon-shop">
+                                          <i class="ri-shopping-cart-2-line"></i>
+                                    </div>
+                              </ul>
+                        </nav>
+                  </div>
+            </header>
+
+            <section class="section-content">
+                  <div class="content">
+                        <p class="content-one"> <span>•</span> Star Elephant Shoes</p>
+                        <!-- <p class="content-two"> <span>•</span></p> -->
+                        <p class="content-three"> <span>•</span> Just Do It .</p>
+                        <p class="content-four"><span>•</span> รับมือกับทุกสิ่งด้วยแร่อะรูไม่ไร้ทนทานแข็งแรง</p>
+                        <button class="shopnow">
+                              SHOP NOW
+                        </button>
+                  </div>
+                  <div class="img-photo">
+                        <img src="img/img-รองเท้า.png" alt="img-รองเท้า">
+                  </div>
+            </section>
+
+      </div>
+</body>
+
+</html>
